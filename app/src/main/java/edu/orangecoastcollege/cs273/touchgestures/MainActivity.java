@@ -85,7 +85,8 @@ public class MainActivity extends AppCompatActivity
      */
     @Override
     public boolean onDoubleTapEvent(MotionEvent motionEvent) {
-        return false;
+        gesturesLogTextView.append("\n onDoubleTapEvent gesture occurred");
+        return true;
     }
 
     /**
